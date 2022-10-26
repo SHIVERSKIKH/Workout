@@ -60,3 +60,20 @@ int Num = Convert.ToInt32(Console.ReadLine());
 bool res = Examination(Num);
 Console.WriteLine(res);
 */
+/*using System;
+class WriteAFewLines
+{
+    static void Main()
+    {
+        Console.WriteLine("Введите ваше любимое слово: ");
+        string favoriteWord = Console.ReadLine();
+        Console.WriteLine("Сколько раз его напечатать? ");
+        int numberOfTimes = Convert.ToInt32(Console.ReadLine());
+        for ( int i = 0; i < numberOfTimes; i++)
+        {
+            Console.WriteLine(favoriteWord);
+        }
+        Console.ReadLine();
+    }
+}
+*/
