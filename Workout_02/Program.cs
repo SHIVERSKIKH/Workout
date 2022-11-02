@@ -12,3 +12,23 @@ double res = Work(n, n2);
 Console.WriteLine($"Yoyr result {res}");
 */
 //Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+/*int Sum(int n)
+{
+    int sum = 0;
+    while(n > 0)
+    {
+        int number = n % 10;
+        n = n / 10;
+        sum = number + sum;
+    }
+    return sum;
+}
+Console.WriteLine("Input number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+int res = Sum(num);
+Console.WriteLine($"Your sum number {res}");
+*/
+
+
+
+
